@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Dreamscape VSC 오디오 연결</title>
+  <desc id="desc">한 번에 하나의 송출 앱인 REAPER 또는 MadMapper에서 Dreamscape VSC로 64채널을 보내고 Speaker Manager가 DSP와 라우팅 후 선택한 물리 ASIO 인터페이스로 출력한다.</desc>
+  <rect width="1200" height="280" rx="22" fill="#181713"/>
+  <g font-family="Malgun Gothic, Noto Sans KR, sans-serif" text-anchor="middle">
+    <rect x="24" y="35" width="220" height="182" rx="14" fill="#2c2a24" stroke="#9e9267"/>
+    <text x="134" y="86" fill="#fff5d8" font-size="24" font-weight="700">송출 앱</text>
+    <text x="134" y="124" fill="#e4dec8" font-size="19">REAPER 또는 MadMapper</text>
+    <text x="134" y="172" fill="#b7ad8a" font-size="15">한 번에 하나</text>
+    <rect x="320" y="35" width="220" height="182" rx="14" fill="#2c2a24" stroke="#9e9267"/>
+    <text x="430" y="86" fill="#fff5d8" font-size="23" font-weight="700">Dreamscape VSC</text>
+    <text x="430" y="124" fill="#e4dec8" font-size="18">ASIO 출력 64채널</text>
+    <text x="430" y="172" fill="#b7ad8a" font-size="15">48 kHz · 256 samples</text>
+    <rect x="616" y="35" width="250" height="182" rx="14" fill="#2c2a24" stroke="#9e9267"/>
+    <text x="741" y="86" fill="#fff5d8" font-size="22" font-weight="700">Speaker Manager</text>
+    <text x="741" y="124" fill="#e4dec8" font-size="18">DSP · 채널 라우팅</text>
+    <text x="741" y="172" fill="#b7ad8a" font-size="15">VSC 수신 + 물리 출력</text>
+    <rect x="942" y="35" width="234" height="182" rx="14" fill="#2c2a24" stroke="#9e9267"/>
+    <text x="1059" y="86" fill="#fff5d8" font-size="22" font-weight="700">물리 ASIO 장치</text>
+    <text x="1059" y="124" fill="#e4dec8" font-size="17">DAC · 앰프 · 스피커</text>
+    <text x="1059" y="172" fill="#b7ad8a" font-size="15">운영자가 직접 선택</text>
+  </g>
+  <g stroke="#c4b36f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M253 126h51m-13-12 13 12-13 12"/>
+    <path d="M549 126h51m-13-12 13 12-13 12"/>
+    <path d="M875 126h51m-13-12 13 12-13 12"/>
+  </g>
+  <text x="600" y="256" text-anchor="middle" fill="#8f8873" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="14">VSC 클록과 물리 인터페이스 클록은 독립적입니다 · 일반 Windows 사운드 장치가 아닌 ASIO 연결입니다</text>
+</svg>

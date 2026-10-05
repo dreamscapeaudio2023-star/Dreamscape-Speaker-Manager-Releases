@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Speaker Manager 기본 화면 구성도</title>
+  <desc id="desc">상단 세션 저장 및 엔진 표시, 왼쪽 툴 섹션, 중앙 스피커 맵, 출력 카드의 M과 S, 하단 상태 표시를 가리키는 구성도.</desc>
+  <rect width="1200" height="680" rx="22" fill="#11100d"/>
+  <rect x="18" y="18" width="1164" height="68" rx="9" fill="#28251e" stroke="#6b634b"/>
+  <text x="45" y="60" fill="#f1eedf" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="26" font-weight="700">SPEAKER MANAGER</text>
+  <g fill="#484234" stroke="#8a7d55" stroke-width="1">
+    <rect x="367" y="32" width="105" height="38" rx="4"/><rect x="481" y="32" width="105" height="38" rx="4"/><rect x="595" y="32" width="78" height="38" rx="4"/><rect x="682" y="32" width="115" height="38" rx="4"/>
+  </g>
+  <g fill="#f1eedf" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="17" text-anchor="middle">
+    <text x="419" y="57">새 세션</text><text x="533" y="57">세션 열기</text><text x="634" y="57">저장</text><text x="739" y="57">다른 이름 저장</text>
+  </g>
+  <text x="1151" y="58" fill="#9fd08c" text-anchor="end" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="19" font-weight="700">ENGINE ON</text>
+  <rect x="18" y="99" width="123" height="528" rx="7" fill="#28251e" stroke="#6b634b"/>
+  <g fill="#f1eedf" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="15" text-anchor="middle">
+    <text x="80" y="133">MIXER</text><text x="80" y="173">ADD SPK</text><text x="80" y="213">ADD GROUP</text><text x="80" y="253">DELETE</text><text x="80" y="293">COPY / PASTE</text>
+    <text x="80" y="388">ENGINE</text><text x="80" y="430">SYSTEM MUTE</text><text x="80" y="490">ROUTING</text><text x="80" y="533">SETUP</text><text x="80" y="576">LOG</text>
+  </g>
+  <line x1="31" y1="328" x2="128" y2="328" stroke="#82785d"/><line x1="31" y1="455" x2="128" y2="455" stroke="#82785d"/>
+  <rect x="155" y="99" width="1027" height="528" rx="8" fill="#0b0a08" stroke="#6b634b"/>
+  <g stroke="#302d25" stroke-width="2">
+    <path d="M285 112v502M415 112v502M545 112v502M675 112v502M805 112v502M935 112v502M1065 112v502"/>
+    <path d="M168 203h1001M168 307h1001M168 411h1001M168 515h1001"/>
+  </g>
+  <g font-family="Malgun Gothic, Noto Sans KR, sans-serif" text-anchor="middle">
+    <rect x="290" y="248" width="118" height="82" rx="7" fill="#353025" stroke="#b1a36d" stroke-width="2"/>
+    <text x="349" y="274" fill="#f1eedf" font-size="17" font-weight="700">OUT 01</text>
+    <rect x="304" y="289" width="43" height="27" rx="3" fill="#803b36"/><rect x="352" y="289" width="43" height="27" rx="3" fill="#8a7535"/>
+    <text x="326" y="309" fill="#fff" font-size="16">M</text><text x="373" y="309" fill="#fff" font-size="16">S</text>
+    <rect x="644" y="365" width="118" height="82" rx="7" fill="#353025" stroke="#b1a36d" stroke-width="2"/>
+    <text x="703" y="391" fill="#f1eedf" font-size="17" font-weight="700">OUT 02</text>
+    <rect x="658" y="406" width="43" height="27" rx="3" fill="#803b36"/><rect x="706" y="406" width="43" height="27" rx="3" fill="#8a7535"/>
+    <text x="680" y="426" fill="#fff" font-size="16">M</text><text x="727" y="426" fill="#fff" font-size="16">S</text>
+    <rect x="888" y="192" width="155" height="98" rx="7" fill="#2c3540" stroke="#7594a6" stroke-width="2"/>
+    <text x="965" y="219" fill="#f1eedf" font-size="16" font-weight="700">LINK A</text>
+    <text x="965" y="243" fill="#c7c2b1" font-size="13">OUT 01 · OUT 02</text>
+    <text x="965" y="273" fill="#f1eedf" font-size="16">+   −   M   S</text>
+  </g>
+  <rect x="18" y="641" width="1164" height="24" rx="4" fill="#28251e"/>
+  <text x="37" y="659" fill="#d2cbb7" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="14">상태: 준비 완료 · 현재 선택 OUT 01</text>
+  <text x="598" y="595" fill="#9b9277" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="15" text-anchor="middle">스피커 맵의 카드 위치는 실제 출력 번호와 무관합니다</text>
+</svg>
